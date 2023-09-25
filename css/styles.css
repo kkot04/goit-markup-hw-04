@@ -66,7 +66,7 @@ body{
 /* logo-section */
 .header {
     border-bottom: 1px solid #e7e9fc;
-    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    /* box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 
 .header-wrapper{
@@ -90,7 +90,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 
 
 }
@@ -159,7 +159,7 @@ body{
 .address-item {
     margin-top: 24px;
     margin-bottom: 24px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .address-link {
@@ -184,11 +184,11 @@ body{
 .hero-section {
     background-color: var(--dark, #2E2F42) ;
     padding: 188px 0;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg/img.1.jpg);
     max-width: 1440px;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .hero-wrapper{
