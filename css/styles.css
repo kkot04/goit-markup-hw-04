@@ -54,6 +54,14 @@ img {
     overflow: hidden;
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
 body {
     font-family: "Roboto", sans-serif;
     color: var(--text, #434455);
@@ -63,16 +71,10 @@ body {
 
 
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 
 /* logo-section */
 .header {
-    /* background-color: hotpink; */
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -128,7 +130,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0;
+    padding: 24px;
     display: inline-block;
 }
 
@@ -151,8 +153,7 @@ body {
 }
 
 .address-item {
-    /* margin-top: 24px;
-    margin-bottom: 24px; */
+    display: flex;
 }
 
 .address-link {
@@ -177,9 +178,8 @@ body {
 /* hero section */
 .hero-section {
     background-color: var(--dark, #2E2F42);
-    /* margin-bottom: 120px; */
     padding: 188px 0;
-
+..
 }
 
 .hero-wrapper {}
