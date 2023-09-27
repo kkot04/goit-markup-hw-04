@@ -91,8 +91,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    color: #404bbf;
+
 }
 
 .logo {
@@ -104,6 +103,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+
 
 }
 
@@ -121,6 +121,7 @@ body {
 .header-list {
     display: flex;
     gap: 40px;
+    
     /* padding: 24px 0; */
     /* padding-top: 24px;
     padding-bottom: 24px; */
@@ -128,6 +129,8 @@ body {
 }
 
 .header-item {
+    position: relative;
+        color: #404bbf;
     
     
 }
@@ -262,10 +265,7 @@ body {
 }
 
 .benefits-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
+    
 }
 
 .benefits-list {
@@ -279,6 +279,10 @@ body {
 }
 
 .benefit-svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 112px;
     padding: 24px 100px;
     border-radius: 4px;
     background-color: var(--light, #F4F4FD);
@@ -433,11 +437,12 @@ body {
 /* customer */
 .customers-section {
     margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .customers-wrapper{
-    padding-top: 120px;
-    padding-bottom: 120px;
+
    
 }
 
