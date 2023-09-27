@@ -639,7 +639,7 @@ body {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
@@ -648,7 +648,7 @@ body {
 
 }
 
-..modal-close-btn:hover, 
+.modal-close-btn:hover, 
 .modal-close-btn:focus {
     background-color: #404bbf;
     border: none;
@@ -659,7 +659,7 @@ body {
 }
 
 .modal-close-svg:hover,
-..modal-close-svg:focus{
+.modal-close-svg:focus{
     fill: #FFFFFF;
 }
 
