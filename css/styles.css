@@ -684,9 +684,13 @@ body {
     margin-bottom: 72px;
 }
 
+.btn-item{}
 
+.btn-item:hover,
+.btn-item:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
-.btn-item {}
+}
 
 .btn {
     font-family: "Roboto", sans-serif;  
@@ -723,6 +727,15 @@ body {
 
 .photo-item {
 
+}
+
+.photo-link{
+    display: block;
+}
+
+.photo-link:hover,
+.photo-link:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .photo-portfolio {
