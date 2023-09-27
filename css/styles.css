@@ -395,6 +395,7 @@ body {
     color: var(--text, #434455);
     /* margin-bottom: 32px; */
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-svg-list{
@@ -660,7 +661,7 @@ body {
 
 .modal-close-svg:hover,
 .modal-close-svg:focus{
-    fill: #FFFFFF;
+    fill: #ffffff;
 }
 
 
@@ -682,12 +683,16 @@ body {
     gap: 24px;
     justify-content: center;
     margin-bottom: 72px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-item{}
 
-.btn-item:hover,
-.btn-item:focus {
+.btn:hover,
+.btn:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
 }
