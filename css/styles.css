@@ -83,8 +83,7 @@ body {
 .header-wrapper {
     display: flex;
     justify-content: space-between;
-    position: relative;
-    color: #404bbf;
+    
 
 }
 
@@ -92,6 +91,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    color: #404bbf;
 }
 
 .logo {
